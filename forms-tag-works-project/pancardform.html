@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2 align="center">PAN CARD IN FOR  TAG</h2>
+
+        <form action="pancardfile.html" method="POST" enctype="multipart/form-data" novalidate>
+            <p><strong>Full Name</strong> (Full expanded name to be mentioned as appearing in proof of identity/date of birth/address documents: initials are not permitted)</p>
+                <label></label>
+          Last Name:<input type="text" name="Last Name"><br>
+          First Name:<input type="text" name="First Name"><br>
+          Middle Name:<input type="text" name="Middle Name"><br><br>
+          <label>Any Other Name:</label>
+          <input type="checkbox" name="anyothername">yes
+          <input type="checkbox" name="anyothername">no<br>
+          <label for="anyothername">if you have another name enter here:</label>
+          <input type="text" name="enteryouranothername"><br><br>
+          <p><strong>Select Gender:</strong></p>
+          Male:<input type="radio" name="gender"><br>
+          Female:<input type="radio" name="gender"><br><br>
+          <label for="dateofbirth"><strong>D.O.B:</strong></label><br>
+          <input type="date" id="dateofbirth"><br> <br>
+          <label><strong>Marriage Status:</strong></label><br><br>
+        <strong>Single:</strong><input type="checkbox" name="miss">
+        <strong>Married:</strong><input type="checkbox" name="mrs"><br><br>
+          <p><strong>Details of Parents</strong> (applicable only for individual applicants)
+            Whether mother is a single parent and you wish to apply for PAN by furnishing the name of your mother only?</p>
+          <label for="yes">if you single parent press "YES"</label><br>
+          <input type="radio" id="yes" name="singleparent">YES<br>
+          <label for="no"></label>
+          <input type="radio" id="NO" name="singleparent">NO<br><br>
+          <p><strong>Father’s Name </strong>(Mandatory except where mother is a single parent and PAN is applied by furnishing the name of mother only)
+          <label>mother name:</label><br><br>
+          First Name:<input type="text" id="mother name" name="mother name" required><br>
+          Last Name:<input type="text"><br><br>
+          <label for="address"><strong>Address:</strong></label><br><br>
+          Flat / Room / Door / Block No: <input type="text" name="address"><br>
+          Name of Premises / Building / Village: <input type="text" name="address"><br>
+          Road / Street / Lane/Post Offic: <input type="text" name="address"><br>
+          Area / Locality / Taluka/ Sub- Division: <input type="text" name="address"><br>
+          Town / City / District: <input type="text" name="address"><br><br>
+          <label><strong>Address for Communication:</strong></label><br><br>
+          <input type="checkbox" name="addressforcommunication">Home
+          <input type="checkbox" name="addressforcommunication">Office<br><br>
+          <label><strong>Mobile No:</strong></label>
+          <input type="number" name="Mobile No"><br><br>
+          <label><strong>Email Id:</strong></label>
+          <input type="email"><br><br>
+          <label><strong>Registration Number</strong>(for company, firms, LLPs etc.):</label>
+          <input type="number" name="registrationnumber"><br><br>
+          <label><strong>In case of a person, who is required to quote Aadhaar number or the Enrolment ID of Aadhaar application form as per section 139 AA</strong></label><br><br>
+          Please mention your AADHAAR number (if allotted):<input type="number" name="aadharnumber"><br>
+          If AADHAAR number is not allotted, please mention the enrolment ID of Aadhaar application form:<input type="number" name="aadharnumber"><br>
+          Name as per AADHAAR letter or card or as per the Enrolment ID of Aadhaar application form:<input type="text" name="aadharnumber"><br><br>
+          <label><strong>Source of Income:</strong></label><br>
+          <input type="checkbox">Salary<br>
+          <input type="checkbox">Income From Business<br>
+          <input type="checkbox">Income From House Property<br>
+          <input type="checkbox">Captial Grains<br>
+          <input type="checkbox">Income From Other Grains<br>
+          <input type="checkbox">No Income<br><br>
+          <label><strong>Documents submitted as Proof of Identity (POI), Proof of Address (POA) and Proof of Date of Birth (POB)</strong></label><br>
+          <br>
+          I/We have encloused:<input type="file"><br><br>
+          <button>register here</button>
+        </form>
+      <a href="mainformpage.html">click here to go for main form page</a>
+    </body>
+</html>
